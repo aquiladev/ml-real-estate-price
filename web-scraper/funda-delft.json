@@ -1,0 +1,128 @@
+{
+    "_id": "funda-delft",
+    "startUrl": [
+        "https://www.funda.nl/koop/delft/woonhuis/p[1-10]/"
+    ],
+    "selectors": [
+        {
+            "id": "items-links",
+            "type": "SelectorLink",
+            "parentSelectors": [
+                "_root"
+            ],
+            "selector": "ol.search-results li.search-result div.search-result-header a",
+            "multiple": true,
+            "delay": 0
+        },
+        {
+            "id": "Address",
+            "type": "SelectorText",
+            "parentSelectors": [
+                "items-links"
+            ],
+            "selector": "h1.object-header__address",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        },
+        {
+            "id": "Price",
+            "type": "SelectorText",
+            "parentSelectors": [
+                "items-links"
+            ],
+            "selector": "strong.object-header__price",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        },
+        {
+            "id": "Year",
+            "type": "SelectorText",
+            "parentSelectors": [
+                "items-links"
+            ],
+            "selector": "li.kenmerken-highlighted__list-item:nth-of-type(1) span.kenmerken-highlighted__details",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        },
+        {
+            "id": "SqMtr",
+            "type": "SelectorText",
+            "parentSelectors": [
+                "items-links"
+            ],
+            "selector": "li.kenmerken-highlighted__list-item:nth-of-type(2) span.kenmerken-highlighted__details",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        },
+        {
+            "id": "Rooms",
+            "type": "SelectorText",
+            "parentSelectors": [
+                "items-links"
+            ],
+            "selector": "li.kenmerken-highlighted__list-item:nth-of-type(3) span.kenmerken-highlighted__details",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        },
+        {
+            "id": "Address-city",
+            "type": "SelectorText",
+            "parentSelectors": [
+                "items-links"
+            ],
+            "selector": "span.object-header__address-city",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        },
+        {
+            "id": "Energy",
+            "type": "SelectorText",
+            "parentSelectors": [
+                "items-links"
+            ],
+            "selector": "span.energielabel",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        },
+        {
+            "id": "Plot",
+            "type": "SelectorText",
+            "parentSelectors": [
+                "items-links"
+            ],
+            "selector": "li.kenmerken-highlighted__list-item:nth-of-type(4) span.kenmerken-highlighted__details",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        },
+        {
+            "id": "Floors",
+            "type": "SelectorText",
+            "parentSelectors": [
+                "items-links"
+            ],
+            "selector": "dl.object-kenmerken-list:nth-of-type(4) dd:nth-of-type(4)",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        },
+        {
+            "id": "Surface",
+            "type": "SelectorText",
+            "parentSelectors": [
+                "items-links"
+            ],
+            "selector": "dl.object-kenmerken-list:nth-of-type(6) dl dd:nth-of-type(1)",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }
+    ]
+}

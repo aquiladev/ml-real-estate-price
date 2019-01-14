@@ -1,0 +1,16 @@
+,Boosted Decision Tree Regression,Linear Regression - OLS,Linear Regression - OGD,Neural Network Regression - Gaussian normalizer
+SqMtr,0.916293,1.436132,0.063391,0.35432
+Year,0.057081,0.06421,0.035759,0.027484
+Energy,0.050056,0.023732,0.018693,0.023114
+Surface,0.036739,0.017342,0.006757,0.022851
+Code,0.008477,0.014836,0.006418,0.001948
+Rooms,0.00512,0.005794,0.006202,-0.032265
+Floors,-0.000321,0.000937,-0.001154,-0.036728
+Plot,-0.007837,0.000597,-0.009494,-0.083384
+,,,,
+,Boosted Decision Tree Regression,Linear Regression - OLS,Linear Regression - OGD,Neural Network Regression - Gaussian normalizer
+Mean Absolute Error,88608.98982,71426.5647,258726.1311,158252.4365
+Root Mean Squared Error,167670.6478,111661.2724,383964.5187,280535.8112
+Relative Absolute Error,0.411078,0.331365,1.200291,0.73417
+Relative Squared Error,0.306356,0.135868,1.606553,0.857609
+Coefficient of Determination,0.693644,0.864132,-0.606553,0.142391
